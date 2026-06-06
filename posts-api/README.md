@@ -91,6 +91,20 @@ A API estará disponível em `http://localhost:3000`.
 
 ---
 
+## Testando com Postman
+
+O arquivo `postman_collection.json` na raiz do projeto contém todos os endpoints configurados e prontos para uso.
+
+### Como importar:
+
+1. Abra o Postman
+2. Clique em **Import** (canto superior esquerdo)
+3. Selecione o arquivo `postman_collection.json`
+4. Todos os endpoints aparecerão na sua Collection
+5. Com a API rodando (`npm run dev`), clique em **Send** em qualquer requisição
+
+---
+
 ## Variáveis de ambiente
 
 | Variável     | Padrão      | Descrição                     |
